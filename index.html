@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="js.js" defer></script> -->
+  
+  <script type="module" src="js.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    
+      <div id="loginPage">
+        <h1>Login</h1>
+        <input type="text" name="uniqueId" placeholder="PhoneNo or Email address" required>
+        <input type="password" name="password" placeholder="password" required>
+      </div>
+      <div id="signUpPage" class="hide">
+        <h1>Sign Up</h1>
+        <input type="text" placeholder="Username" required>
+        <input type="text" name="uniqueId" placeholder="PhoneNo or Email address" required>
+        <input type="password" name="password" placeholder="password" required>
+      </div>
+      <p id="forgetpas">Forget password?</p>
+      <input type="submit" value="Login" id="btn">
+    
+    <p id="linkline">Not a member?<a id="linkid" href="">Sign Up</a></p>
+  </div>
+  <div id="forgetPasDiv" class="hide">
+      <h2>Change Password</h2>
+      <input type="text" class="resetPass" placeholder="PhoneNo or Email address">
+      <input type="password" class="resetPass" name="password" placeholder="New Password" required>
+      <input type="password" name="password" class="resetPass" placeholder="Conform password" required>
+      <button id="cancelbtn">Cancel</button>
+      <button id="okbtn">Change Password</button>
+  </div>
+
+
+</body>
+
+</html>
